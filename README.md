@@ -2,7 +2,7 @@
 
 ## Analysis of GABA/glutamate signal.
 
-The script SynapseStats performs the analysis of the images.
+The script SynapseStats performs the analysis of images of neurons grown of substrates of different stifness.
 Input: folder containing lif files with four colour experiments: neurofilaments (channel 1), glutamate (channel 2), neuroligin (channel 3), and GABA transporter (VGAT, channel 4).
 Output: result folder with counts for the above signals (total, close to one/two/all other colours respectively) and length of detected process.
 
