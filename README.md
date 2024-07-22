@@ -7,12 +7,12 @@ Input: folder containing lif files with four colour experiments: neurofilaments 
 Output: result folder with counts for the above signals (total, close to one/two/all other colours respectively) and length of detected process.
 
  ## Parameters:
-thDist    (default 2)       - distance threshold in pixels (for signal to be considered close)
-thRemove  (default 150)     - process fragments smaller than the threshold are removed
+- thDist    (default 2)       - distance threshold in pixels (for signal to be considered close)
+- thRemove  (default 150)     - process fragments smaller than the threshold are removed
   
 <img src=src/Synapse.png width="300" height="300">
 
-### external dependency
+### External dependency
 bfmatlab
 https://www.openmicroscopy.org/bio-formats/
 
